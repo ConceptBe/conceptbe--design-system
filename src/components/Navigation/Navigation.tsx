@@ -36,6 +36,5 @@ const NavWrapper = styled.nav`
   position: absolute;
   bottom: 8%;
   display: flex;
-  justify-content: space-between;
-  gap: 20%;
+  justify-content: space-around;
 `;
