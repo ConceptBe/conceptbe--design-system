@@ -51,15 +51,15 @@ const font = {
     fontSize: 14,
     fontWeight: 600,
   },
+  suit14sb: {
+    fontSize: 14,
+    fontWeight: 600,
+  },
   suit14b: {
     fontSize: 14,
     fontWeight: 700,
   },
-  suit15ra: {
-    fontSize: 15,
-    fontWeight: 400,
-  },
-  suit15rb: {
+  suit15r: {
     fontSize: 15,
     fontWeight: 400,
   },

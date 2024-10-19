@@ -1,10 +1,11 @@
 import styled from '@emotion/styled';
 
+import { HTMLAttributes } from 'react';
 import { ReactComponent as SVGCancel } from '../../assets/svg/cancel.svg';
 import Spacer from '../Spacer/Spacer';
 import Text from '../Text/Text';
 
-interface TagProps {
+interface TagProps extends HTMLAttributes<HTMLDivElement> {
   children: string;
   onDelete: (name: string) => void;
 }
