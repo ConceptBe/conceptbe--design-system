@@ -60,6 +60,7 @@ export { ReactComponent as SVGScrap24 } from './assets/svg/scrap_24.svg';
 export { ReactComponent as SVGScrapFilled24 } from './assets/svg/scrap_filled_24.svg';
 export { ReactComponent as SVGTextRequired } from './assets/svg/text_required.svg';
 export { ReactComponent as SVGTripleDots } from './assets/svg/triple_dots.svg';
+export { ReactComponent as SVGWritePencil } from './assets/svg/write_pencil.svg';
 
 export { ReactComponent as SVGHeaderBack24B } from './assets/svg/header/back_24_B.svg';
 export { ReactComponent as SVGHeaderBack24W } from './assets/svg/header/back_24_W.svg';

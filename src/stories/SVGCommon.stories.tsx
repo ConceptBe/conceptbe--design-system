@@ -4,18 +4,20 @@ import {
   SVGAdd24,
   SVGCancel,
   SVGCheckFilled24,
+  SVGDropdownArrow,
   SVGFeed24,
   SVGFeedFilled24,
+  SVGGoldBell,
   SVGProfile24,
   SVGProfileFilled24,
+  SVGRadioCheck24,
+  SVGRadioFilled24,
+  SVGRadioUncheck24,
   SVGScrap24,
   SVGScrapFilled24,
-  SVGRadioUncheck24,
-  SVGRadioFilled24,
-  SVGRadioCheck24,
   SVGTextRequired,
   SVGTripleDots,
-  SVGDropdownArrow,
+  SVGWritePencil,
 } from '../.';
 
 const meta = {
@@ -44,6 +46,8 @@ export const Default: Story = {
       <SVGRadioCheck24 />
       <SVGTextRequired />
       <SVGTripleDots />
+      <SVGGoldBell />
+      <SVGWritePencil />
     </div>
   ),
 };
