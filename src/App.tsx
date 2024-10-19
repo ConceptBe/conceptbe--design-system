@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-import { Alert, BottomSheet, Button, Confirm } from '.';
+import { Alert, BottomSheet, Button, Confirm, Text } from '.';
 
 const App = () => {
   const [isBottomSheetOpen, setIsBottomSheetOpen] = useState(false);
@@ -10,7 +10,7 @@ const App = () => {
   return (
     <>
       <Button onClick={() => setIsBottomSheetOpen(true)}>Bottom Sheet</Button>
-
+      <Text font="suit10eb">피드</Text>
       <BottomSheet
         isOpen={isBottomSheetOpen}
         onClose={() => setIsBottomSheetOpen(false)}

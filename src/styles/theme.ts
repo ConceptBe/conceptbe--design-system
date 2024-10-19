@@ -19,6 +19,10 @@ const color = {
 } as const;
 
 const font = {
+  suit10eb: {
+    fontSize: 10,
+    fontWeight: 800,
+  },
   suit12r: {
     fontSize: 12,
     fontWeight: 400,
