@@ -71,7 +71,7 @@ const font = {
     fontSize: 15,
     fontWeight: 600,
   },
-  suit164: {
+  suit16r: {
     fontSize: 16,
     fontWeight: 400,
   },
