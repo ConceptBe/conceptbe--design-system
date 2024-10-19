@@ -71,6 +71,10 @@ const font = {
     fontSize: 15,
     fontWeight: 600,
   },
+  suit164: {
+    fontSize: 16,
+    fontWeight: 400,
+  },
   suit16m: {
     fontSize: 16,
     fontWeight: 500,
