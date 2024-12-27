@@ -1,10 +1,10 @@
 import { css } from '@emotion/react';
 import styled from '@emotion/styled';
-import { ReactNode } from 'react';
+import { HtmlHTMLAttributes, ReactNode } from 'react';
 
 type PositionType = 'normal' | 'center';
 
-export interface Props {
+export interface Props extends HtmlHTMLAttributes<HTMLDivElement> {
   onClick?: () => void;
   position?: PositionType;
   children: ReactNode;

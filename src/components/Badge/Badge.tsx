@@ -25,7 +25,7 @@ const Badge = <T extends ElementType>({
   children,
   backgroundColor = 'bg1',
   fontColor = 'b9',
-  radius = 4,
+  radius = 50,
   ...attributes
 }: Props<T>) => {
   return (
